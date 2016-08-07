@@ -1,0 +1,162 @@
+﻿body {
+    background-color: mistyrose;
+    background-image: url("images/tulips_flowers_petals_background_91085_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial;
+}
+
+div {
+    /*border: 1px solid black;*/ /* clarification des travaux en cours*/
+    margin: 3px; /*forme pyramide pour les travaux, obviously*/
+
+}
+/* main items */
+h1 {
+    border: 1px solid black;
+    padding-left: 20px;
+    margin-left: 3px;
+}
+
+div#menu {
+    width: 12em;
+    display: inline-block;
+    float: left;
+}
+
+div.contenu {
+    float: left;
+    display: block;
+
+}
+
+#menu ul {
+    width: 10em;
+    text-align: center;
+    /* aucun cadrage pour que le changement de couleur occupe toute la case */
+    margin-left: 15px;
+    padding: 0;
+    display: inline-block;
+}
+/* si on survole une sous-liste on l'affiche */
+#menu ul li:hover ul {
+    display: block;
+}
+/* sinon ne l'affiche pas, mais on specifie le reste */
+#menu ul ul {
+    /* sous-listes pas affichees au depart */
+    display: none;
+    /* mais on prepare leur position */
+    position: absolute;
+    /* revenir en haut du cadre du parent, bordure comprise */
+    margin-top: -2.1em;
+    /* sauter le cadre du parent sauf la bordure:
+/* si on laisse de l'espace entre, le :hover ne sera plus actif
+/* et le menu lateral s'effacera avant d'etre atteint */
+    margin-left: 9.9em;
+    /* pas de cadrage ni de point pour les items */
+    padding: 0;
+    list-style-type: none;
+    /* caracteristiques arbitraires */
+    width: 10em;
+    border: 0.1em solid gray;
+    background-color: #e19d2a;
+}
+
+#menu ul li {
+    border: 0.1em solid gray;
+    list-style: none;
+    /* elargir le cadre sans recourir a Padding, cf ci-dessus */
+    line-height: 2em;
+}
+
+#menu ul li a {
+    /* occuper tout l'espace */
+    display: block;
+    /* le souligne est pour les incultes en typographie */
+    text-decoration: none;
+    color: rgb(60, 0, 0);
+}
+
+/* colorer les zones de clics au survol */
+#menu ul li a:hover {
+    color: rgb(51, 102, 102);
+    background-color: #c5701f;
+}
+
+/* comme ci-dessus, mais en plus petit et sans bordure */
+#menu ul ul li {
+    border: none;
+    line-height: 1.5em;
+}
+
+#menu ul ul li a {
+    display: block;
+    color: black;
+}
+
+#menu ul ul li a:hover {
+    color: rgb(255, 255, 204);
+    border: 0.1em solid gray;
+}
+
+/* sous-sous-listes, toujours agir sur Display */
+#menu ul li:hover ul li ul {
+    display: none;
+}
+/* Attention le rectangle est plus petit, et bordure initiale deja sautee  */
+#menu ul li:hover ul li:hover ul {
+    display: block;
+    position: absolute;
+    margin-top: -1.6em;
+    margin-left: 10em;
+}
+/*
+.categorie {
+    background-color: rgb(60, 0, 0);
+}
+
+.article{
+    background-color: rgb(51, 102, 102); 
+}*/
+
+.categorie h2, .article h3, .article p, p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+a {
+    cursor: pointer;
+}
+
+.categorie {
+    display: block;
+}
+.etape {
+    display: block;
+    height: 100px;
+    /*background-color: #e19d2a; /*Travaux*/
+}
+
+.etape p {
+    vertical-align: middle;
+}
+
+.etape img {
+    padding: 15px;
+    float: left;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+#CatioVital{
+    cursor: pointer;
+}
+
+.article {
+    border: 1px solid black;
+    background-color: rgba(255,255,255, 0.35);
+}
