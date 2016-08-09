@@ -38,7 +38,10 @@
                         <a class="page-scroll" href="#soins-visage">Soins Visage</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#tarifs">Tarifs</a>
+                        <a class="page-scroll" href="#soins-corps">Soins Corps</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#epilation-et-maquillage">Epilation & Maquillage</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -89,10 +92,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Soins du visage</h1>
+                    <h1>Soins du Visage</h1>
                 </div>
             </div>
-            <div class="row panel">
+            <div class="row">
                 <div id="beauteexpert" class="col-lg-3 panel-group">
                     <h4>Beauté Expert</h4>
                     <div class="panel panel-default">
@@ -251,8 +254,10 @@
 
                 </div>
             </div>
-
-            <div class="row panel">
+            
+            <hr class="greybackground panelrow-divider">
+            
+            <div class="row">
                 <div id="psm4s" class="col-lg-3 panel-group">
                     <h4>Programme sur mesure 4 semaines</h4>
                     <div class="panel panel-default">
@@ -417,15 +422,466 @@
             </div>
         </div>
     </section>
-
-    <!-- Services Section -->
-    <section id="tarifs" class="tarifs-section">
+    
+    <!-- Soins Corps Section -->
+    <section id="soins-corps" class="soins-corps-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Tarifs Section</h1>
+                    <h1>Soins du Corps</h1>
+                </div>
+                <div class="row panel">
+                    <div id="soinscorps" class="col-lg-3 panel-group">
+                        <h4>Soins Corps</h4>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#gchydra" data-parent="#soinscorps" data-toggle="collapse">Gommage Corps + Hydratation</a>
+                                </h3>
+                            </div>
+                            <div id="gchydra" class="panel-collapse collapse">
+                                <div class="panel-body">Gommage avec des grains de bambou, du sucre de canne, du papaye pour une peau plus nette, plus lisse et bien hydratante </div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#gcmodelage" data-parent="#soinscorps" data-toggle="collapse">Gommage corporel et modelage</a>
+                                </h3>
+                            </div>
+                            <div id="gcmodelage" class="panel-collapse collapse">
+                                <div class="panel-body">Associez les deux pour retrouver et tonifier le corps. </div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#jambeslegeres" data-parent="#soinscorps" data-toggle="collapse"> Jambes Légères </a>
+                                </h3>
+                            </div>
+                            <div id="jambeslegeres" class="panel-collapse collapse">
+                                <div class="panel-body">Modelage avec le produit spécialisé pour les jambes et finir par l'enveloppement. </div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#reflexologieplantaire" data-parent="#soinscorps" data-toggle="collapse">Reflexologie plantaire esthétique</a>
+                                </h3>
+                            </div>
+                            <div id="reflexologieplantaire" class="panel-collapse collapse">
+                                <div class="panel-body">Apaiser les tensions, évacuer le stress.</div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#gdmodelage" data-parent="#soinscorps" data-toggle="collapse">Gommage dos + Modelage Dos Relax</a>
+                                </h3>
+                            </div>
+                            <div id="gdmodelage" class="panel-collapse collapse">
+                                <div class="panel-body">Relaxation du corps et retrouver un bien être.</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="soinsminceur" class="col-lg-3 panel-group">
+                        <h4>Soins Minceur</h4>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#specialite-soins-minceur" data-parent="#soinsminceur" data-toggle="collapse">Spécialité Soins Minceur</a>
+                                </h3>
+                            </div>
+                            <div id="specialite-soins-minceur" class="panel-collapse collapse">
+                                <div class="panel-body">Palper, rouler, drainer de manière énergisante, réduire la taille des hanches, des cuisses, du ventre et les bras à l'aide de bambous et de ventouses</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="detente" class="col-lg-3 panel-group">
+                        <h4>Détente</h4>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#modelage-californien" data-parent="#detente" data-toggle="collapse">Modelage Californien</a>
+                                </h3>
+                            </div>
+                            <div id="modelage-californien" class="panel-collapse collapse">
+                                <div class="panel-body">Profonde relaxation physique.</div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#modelage-a-la-bougie" data-parent="#detente" data-toggle="collapse">Modelage à la bougie</a>
+                                </h3>
+                            </div>
+                            <div id="modelage-a-la-bougie" class="panel-collapse collapse">
+                                <div class="panel-body">Détente, douceur et chaleur au contact de la peau.</div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#modelage-aux-pierres-chaudes" data-parent="#detente" data-toggle="collapse">Modelage aux pierres chaudes</a>
+                                </h3>
+                            </div>
+                            <div id="modelage-aux-pierres-chaudes" class="panel-collapse collapse">
+                                <div class="panel-body">Tonification de l'organisme et renforcement des fonctiosn immunitaires.</div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#specialite-modelage-lomi-lomi" data-parent="#detente" data-toggle="collapse">Spécialité Modelage Lomi-Lomi</a>
+                                </h3>
+                            </div>
+                            <div id="specialite-modelage-lomi-lomi" class="panel-collapse collapse">
+                                <div class="panel-body">Une détente libérante des tensions, énergisante et ressourçante.</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="modelage-du-ventre" class="col-lg-3 panel-group">
+                        <h4>Modelage du Ventre</h4>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#modelage-du-ventre-bis" data-parent="#modelage-du-ventre" data-toggle="collapse">Modelage du ventre</a>
+                                </h3>
+                            </div>
+                            <div id="modelage-du-ventre-bis" class="panel-collapse collapse">
+                                <div class="panel-body">Deuxième cerveau, libérer des tensions, bien-être...</div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
+        </div>
+    </section>
+    
+    <!-- Mains & Pieds Section -->
+    <section id="mains-et-pieds" class="mains-et-pieds-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Mains et Pieds</h1>
+                </div>
+            </div>
+                <div class="row">
+                    <div id="beaute-des-mains" class="col-lg-2 panel-group">
+                        <h4>Beauté des Mains</h4>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#beaute-des-mains-bis" data-parent="#beaute-des-mains" data-toggle="collapse">Beauté des mains</a>
+                                </h3>
+                            </div>
+                            <div id="beaute-des-mains-bis" class="panel-collapse collapse">
+                                <div class="panel-body">Couper, limer, coupe des cuticules, pose du vernis...</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="beaute-des-pieds" class="col-lg-2 panel-group">
+                        <h4>Beauté des Pieds</h4>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#beaute-des-pieds-bis" data-parent="#beaute-des-pieds" data-toggle="collapse">Beauté des pieds</a>
+                                </h3>
+                            </div>
+                            <div id="beaute-des-pieds-bis" class="panel-collapse collapse">
+                                <div class="panel-body">Gommer, couper, limer, coupe des cuticules, pose du vernis...</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="forfait-mains-et-pieds" class="col-lg-2 panel-group">
+                        <h4>Forfait Mains + Pieds</h4>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#forfait-mains-et-pieds-bis" data-parent="#forfait-mains-et-pieds" data-toggle="collapse">
+                                    Forfait Mains + Pieds
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="beaute-des-mains-pose-du-vernis-semi" class="col-lg-2 panel-group">
+                        <h4>Beauté des Mains + Pose du vernis semi-permanent</h4>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#beaute-des-mains-pose-du-vernis-semi-bis" data-parent="#beaute-des-mains-pose-du-vernis-semi" data-toggle="collapse">
+                                    Beauté des mains + Pose du vernis semi-permanent
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="forfait-mains-pieds-vernis-perm" class="col-lg-2 panel-group">
+                        <h4>Forfait Mains + Pieds avec vernis semi-permanent</h4>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="forfait-mains-pieds-vernis-perm-bis" data-parent="#forfait-mains-pieds-vernis-perm" data-toggle="collapse">
+                                    Forfait mains + Pieds avec vernis semi-permanent
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="pose-vernis-simple" class="col-lg-2 panel-group">
+                        <h4>Beauté des Mains + Pose du vernis semi-permanent</h4>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#pose-vernis-simple-bis" data-parent="#pose-vernis-simple" data-toggle="collapse">
+                                    Pose de vernis simple
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Epilation & Maquillage -->
+    <section id="epilation-et-maquillage" class="epilation-et-maquillage-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Epilation & Maquillage</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div id="epilation-panel" class="col-lg-6 panel-group">
+                    <h4>Epilation</h4>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Sourcils
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Lèvres, menton
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Visage complet
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Aisselles
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Demi-bras
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Bras
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Maillot simple
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Brésilienne
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Semi-Brésiliene
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Intégrale
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Demi-jambes
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Jambes entières
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Cuisses
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                Epilation avec produit longue durée
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                A-JE-Maillot Brésilien
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                A-JE-Maillot Intégral
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                A-1/2-Maillot Brésilien
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                A-1/2-Maillot Intégral
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="maquillage-panel" class="col-lg-6 panel-group">
+                        <h4>Maquillage</h4>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Sourcils
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Eye-liner, supérieur/inférieur
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Yeux complets
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Intensifications des cils, supérieur/inférieur
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Contour des lèvres seules
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Contour des lèvres + dégradé
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Grain de beauté
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Tatouage artistique
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Cicatrice
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Sénace supplémentaire
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
         </div>
     </section>
 
