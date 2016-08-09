@@ -26,29 +26,43 @@ html {
 }
 
 .intro-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
+    height: 30%;
+    padding-top: 100px;
+    text-align: left;
+    background: #9DEB9E;
 }
 
-.soins-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
+.soins-visage-section {
+    height: 80%;
+    padding-top: 10px;
+    text-align: left;
     background: #eee;
 }
 
-.tarifs-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
+.soins-corps-section {
+    height: 50%;
+    padding-top: 10px;
+    text-align: left;
+    background: #fff;
+}
+
+.mains-et-pieds-section {
+    height: 30%;
+    padding-top: 10px;
+    text-align: left;
+    background: #eee;
+}
+
+.epilation-et-maquillage-section {
+    height: 110%;
+    padding-top: 10px;
+    text-align: left;
     background: #fff;
 }
 
 .contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
+    height: 25%;
+    padding-top: 10px;
+    text-align: left;
     background: #eee;
 }

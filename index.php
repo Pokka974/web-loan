@@ -56,7 +56,6 @@
     <!-- Intro Section -->
 
     <section id="intro" class="intro-section">
-        <a class="btn btn-default page-scroll" href="#about">Scroll to bottom !</a>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
