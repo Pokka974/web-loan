@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>web-loan</title>
+    <title>Institut de beauté Loan</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Web Loan</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Institut de beauté Loan</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -35,7 +35,7 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#soins-visage">Soins</a>
+                        <a class="page-scroll" href="#soins-visage">Soins Visage</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#tarifs">Tarifs</a>
@@ -84,7 +84,7 @@
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Soins Visage Section -->
     <section id="soins-visage" class="soins-visage-section">
         <div class="container">
             <div class="row">
@@ -92,159 +92,326 @@
                     <h1>Soins du visage</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3">
-                    <h2>Beauté Expert</h2>
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <h3>Catio Vital</h3>
-                            <p>Soin beauté personnalisé, nettoyage traitant et en profondeur.</p>
-                            <ol>
-                                <li>Nettoyage profond par effet "sauna".</li>
-                                <li>Double ionisation des actifs en profondeur.</li>
-                                <li>Modelage "détente" aux huiles essentielles.</li>
-                            </ol>
+            <div class="row panel">
+                <div id="beauteexpert" class="col-lg-3 panel-group">
+                    <h4>Beauté Expert</h4>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#catiovital" data-parent="#beauteexpert" data-toggle="collapse">Catio Vital</a>
+                                </h3>
                         </div>
-                        <div class="col-lg-3">
-                            <h3>Catio Lift</h3>
-                            <p>Méthode de rajeunissement des traits du visage basée sur la stimulation des muscles. Haute technologie de luxe avec l'appareil performante.</p>
-                        </div>
-                        <div class="col-lg-3">
-                            <h3>Double Catio Vital Jeunesse</h3>
-                            <p>Nettoyage en profondeur, anti-ride et anti-temps. Retrouver la jeunesse de la peau.</p>
-                        </div>
-                        <div class="col-lg-3">
-                            <h3>Eye-Repair</h3>
-                            <p>Soin pour le contour des yeux. Anti-rides, anti-poches et anti-cernes.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <h2>Beauté Essentielle</h2>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h3>Beauté Express</h3>
-                            <p>Soin coup d'éclat, effet bonne mine.</p>
-                        </div>
-                        <div class="col-lg-6">
-                            <h3>Beauté Aromatique</h3>
-                            <p>Soin personnalisé aux huiles essentielles.</p>
+                        <div id="catiovital" class="panel-collapse collapse">
+                            <div class="panel-body">Soin beauté personnalisé, nettoyage traitant et en profondeur
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3">
-                    <h2>Beauté Lifting</h2>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h3>Beauté Lifting</h3>
-                            <p>Soin lifting et raffermissant au procollagène.</p>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#catiolift" data-parent="#beauteexpert" data-toggle="collapse">Catio Lift</a>
+                                </h3>
                         </div>
-                        <div class="col-lg-4">
-                            <h3>Peel & Lift</h3>
-                                <p>Soin rénovateur effet lifting-éclat. Anti-taches brunes aux acides de fruits.</p>
+                        <div id="catiolift" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Méthode de rajeunissement des traits du visage basée sur la stimulation des muscles. Haute technologie de luxe avec l'appareil performante.
+                            </div>
                         </div>
-                        <div class="col-lg-4">
-                            <h3>Kobido</h3>
-                            <p>Stimuler l'ensemble de la circulation énergétique du visage, du cou et du décolleté.</p>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#doublecatiovitaljeunesse" data-parent="#beauteexpert" data-toggle="collapse">Double Catio Vital Jeunesse</a>
+                                </h3>
+                        </div>
+                        <div id="doublecatiovitaljeunesse" class="panel-collapse collapse">
+                            <div class="panel-body">Nettoyage en profondeur, anti-ride et anti-temps. Retrouver la jeunesse de la peau.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#eyerepair" data-parent="#beauteexpert" data-toggle="collapse">Eye-Repair</a>
+                                </h3>
+                        </div>
+                        <div id="eyerepair" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Soin pour le contour des yeux. Anti-rides, anti-poches et anti-cernes
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <h2>Drainage Lympho-Energétique</h2>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h3>Drainage lympho-énergétique du visage</h3>
-                            <p>Dégonfler, rendre les boutons moins enflés.</p>
+
+                <div id="beauteessentielle" class="col-lg-3 panel-group">
+                    <h4>Beauté Essentielle</h4>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#beauteexpress" data-parent="#beauteessentielle" data-toggle="collapse">Beaute Express</a>
+                                </h3>
                         </div>
-                        <div class="col-lg-4">
-                            <h3>Soins Ayurvedique</h3>
-                            <p>Détente profonde.</p>
-                        </div>
-                        <div class="col-lg-4">
-                            <h3>Cou</h3>
-                            <p>Retrouver la jeunesse, l'ovale du visage, dégraissage et anti "double-menton".</p>
+                        <div id="beauteexpress" class="panel-collapse collapse">
+                            <div class="panel-body">Soin coup d'éclat, edffet bonne mine.</div>
                         </div>
                     </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#beautearomatique" data-parent="#beauteessentielle" data-toggle="collapse">Beauté Aromatique</a>
+                                </h3>
+                        </div>
+                        <div id="beautearomatique" class="panel-collapse collapse">
+                            <div class="panel-body">Soin personnalisé aux huiles essentielles.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="beautelifting" class="col-lg-3 panel-group">
+                    <h4>Beauté Lifting</h4>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#beautelifting2" data-parent="#beautelifting" data-toggle="collapse">Beauté Lifting</a>
+                                </h3>
+                        </div>
+                        <div id="beautelifting2" class="panel-collapse collapse">
+                            <div class="panel-body">Soin lifting et raffermissant au procollagène.</div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#peeletlift" data-parent="#beautelifting" data-toggle="collapse">Peel & Lift</a>
+                                </h3>
+                        </div>
+                        <div id="peeletlift" class="panel-collapse collapse">
+                            <div class="panel-body">Soin rénovateur effet lifting-éclat. Anti-taches brunes aux acides de fruits.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                     <a href="#kobido" data-parent="#beautelifting" data-toggle="collapse">Kobido</a>
+                                </h3>
+                        </div>
+                        <div id="kobido" class="panel-collapse collapse">
+                            <div class="panel-body">Stimuler l'ensemble de la circulation énergétique du visage, du cou et du décolleté.
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div id="dle" class="col-lg-3 panel-group">
+                    <h4>Drainage Lympho-Energétique</h4>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#dledv" data-parent="#dle" data-toggle="collapse">Drainage Lympho-énergétique du visage</a>
+                                </h3>
+                        </div>
+                        <div id="dledv" class="panel-collapse collapse">
+                            <div class="panel-body">Dégonfler, rendre les boutons moins enflés.</div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#soinsayurvedique" data-parent="#dle" data-toggle="collapse">Soins Ayurvédiques</a>
+                                </h3>
+                        </div>
+                        <div id="soinsayurvedique" class="panel-collapse collapse">
+                            <div class="panel-body">Détente profonde.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                     <a href="#dlecou" data-parent="#dle" data-toggle="collapse">Cou</a>
+                                </h3>
+                        </div>
+                        <div id="dlecou" class="panel-collapse collapse">
+                            <div class="panel-body">Retrouver la jeunesse, l'ovale du visage, dégraissage et anti "double-menton".
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
-            <div class="row"> 
-                <div class="col-lg-3">
-                    <h2>Programme sur mesure 4 semaines</h2>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h3>Eclat Energie</h3>
-                            <p>Eclat Energie - 4 Soins - BA/PL/DL/BA</p>
+
+            <div class="row panel">
+                <div id="psm4s" class="col-lg-3 panel-group">
+                    <h4>Programme sur mesure 4 semaines</h4>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#eclatenergie" data-parent="#psm4s" data-toggle="collapse">Eclat Energie</a>
+                                </h3>
                         </div>
-                        <div class="col-lg-4">
-                            <h3>Eclaircissement</h3>
-                            <p>4 soins - PL/CL/PL/CL</p>
-                        </div>
-                        <div class="col-lg-4">
-                            <h3>Jeunesse Anti-tâches</h3>
-                            <p>4 soins - PL/PL/C/BL</p>
+                        <div id="eclatenergie" class="panel-collapse collapse">
+                            <div class="panel-body">Eclat Energie - 4 Soins - BA/PL/DL/BA</div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h3>Pureté Matité</h3>
-                            <p>4 Soins - C/PL/PL/PL</p>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#eclaircissement" data-parent="#psm4s" data-toggle="collapse">Eclairecissement</a>
+                                </h3>
                         </div>
-                        <div class="col-lg-offset-4 col-lg-4">
-                            <h3>Lift Fermeté</h3>
-                            <p>4 soins - PL/CL/PL/CL</p>
+                        <div id="eclaircissement" class="panel-collapse collapse">
+                            <div class="panel-body">4 Soins - PL/CL/PL/CL</div>
                         </div>
-                    </div>    
-                </div>
-                <div class="col-lg-3">
-                    <h2>Maquilalge</h2>
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <h3>Maquillage Jour</h3>
-                            <p>...</p>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#jeunesseantitache" data-parent="#psm4s" data-toggle="collapse">Jeunesse Anti-tâches</a>
+                                </h3>
                         </div>
-                        <div class="col-lg-3">
-                            <h3>Maquillage Soir</h3>
-                            <p>Cocktail avec un soin fixateur</p>
+                        <div id="jeunesseantitache" class="panel-collapse collapse">
+                            <div class="panel-body">4 Soins - PL/PL/C/BL</div>
                         </div>
-                        <div class="col-lg-3">
-                            <h3>Maquillage Mariée</h3>
-                            <p>(Avec 1 essai offert) Atténuer les imperfections, mettre en valeur... </br>
-                                Avec un soin éclat du visage, beauté des mains, pied ou forfait + maquillage
-                            </p>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#puretematite" data-parent="#psm4s" data-toggle="collapse">Pureté Matité</a>
+                                </h3>
                         </div>
-                        <div class="col-lg-3">
-                            <h3>Cours d'auto maquillage</h3>
-                            <p>Cours d'auto maquillagé personnalisé et conseils produits</p>
+                        <div id="puretematite" class="panel-collapse collapse">
+                            <div class="panel-body">4 Soins - C/PL/PL/PL</div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#liftfermete" data-parent="#psm4s" data-toggle="collapse">Lift Fermeté</a>
+                                </h3>
+                        </div>
+                        <div id="liftfermete" class="panel-collapse collapse">
+                            <div class="panel-body">4 Soins - PL/CL/PL/CL</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <h2>Teinture Sourcils/Cils</h2>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h3>Teinture Cils</h3>
-                            <p>...</p>
+        
+                <div id="maquillage" class="col-lg-3 panel-group">
+                    <h4>Maquillage</h4>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#maquillagejour" data-parent="#maquillage" data-toggle="collapse">Maquillage Jour</a>
+                                </h3>
                         </div>
-                        <div class="col-lg-4">
-                            <h3>Teinture Sourcils</h3>
-                            <p>....</p>
+                        <div id="maquillagejour" class="panel-collapse collapse">
+                            <div class="panel-body">...
+                            </div>
                         </div>
-                        <div class="col-lg-4">
-                            <h3>Teinture Sourcils & Cils</h3>
-                            <p>...</p>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#maquillagesoir" data-parent="#maquillage" data-toggle="collapse">Maquillage Soir</a>
+                                </h3>
                         </div>
-                        
+                        <div id="maquillagesoir" class="panel-collapse collapse">
+                            <div class="panel-body">Cocktail avec un soin fixateur
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#maquillagemariee" data-parent="#maquillage" data-toggle="collapse">Maquillage Mariée</a>
+                                </h3>
+                        </div>
+                        <div id="maquillagemariee" class="panel-collapse collapse">
+                            <div class="panel-body">(Avec 1 essai offert) Atténuer les imperfections, mettre en valeur...<br>
+                                Avec un soin éclat du visage, beauté des mains, pied ou forfait + maquillage 
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#coursautomaquillage" data-parent="#maquillage" data-toggle="collapse">Cours d'automaquillage</a>
+                                </h3>
+                        </div>
+                        <div id="coursautomaquillage" class="panel-collapse collapse">
+                            <div class="panel-body">Cours d'automaquillage personnalisé et conseils sur les produits
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <h2>Réhaussement de cils</h2>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h3>Réhaussement de cils</h3>
-                            <p>Retrouver des cils plus longs, plus courbés pour un regard de biche et surtout sur de vrai cils, points forts garder le réhaussement des cils pendant deux mois.</p>
+        
+                <div id="teinturecils" class="col-lg-3 panel-group">
+                    <h4>Teinture Sourcils / Cils</h4>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#teinturecils2" data-parent="#psm4s" data-toggle="collapse">Teinture Cils</a>
+                                </h3>
                         </div>
-                    </div>    
+                        <div id="teinturecils2" class="panel-collapse collapse">
+                            <div class="panel-body">...</div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#teinturesourcils" data-parent="#psm4s" data-toggle="collapse">Teinture Sourcils</a>
+                                </h3>
+                        </div>
+                        <div id="teinturesourcils" class="panel-collapse collapse">
+                            <div class="panel-body">...</div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                    <a href="#teinturesourcilsetcils" data-parent="#psm4s" data-toggle="collapse">Teinture Sourcils & Cils</a>
+                                </h3>
+                        </div>
+                        <div id="teinturesourcilsetcils" class="panel-collapse collapse">
+                            <div class="panel-body">...</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div id="rehaussementcils" class="col-lg-3 panel-group">
+                    <h4>Réhaussement de cils</h4>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="#rehaussementcils2" data-parent="#rehaussementcils" data-toggle="collapse">Réhaussement de cils</a>
+                            </h3>
+                        </div>
+                        <div id="rehaussementcils2" class="panel-collapse collapse">
+                            <div class="panel-body">Retrouver des cils plus longs, plus courbés pour un regard de biche surtout avec de vrais cils, points forts: garder le réhaussement des cils pendant deux mois.</div>
+                        </div>
+                    </div>
                 </div>
                 
             </div>
