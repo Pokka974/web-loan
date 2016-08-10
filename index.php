@@ -433,150 +433,151 @@
                     <div class="col-lg-12">
                         <h1>Soins du Corps</h1>
                     </div>
-                    <div class="row panel">
-                        <div id="soinscorps" class="col-lg-3 panel-group">
-                            <h4>Soins Corps</h4>
+                </div>
+                <div class="row panel">
+                    <div id="soinscorps" class="col-lg-3 panel-group">
+                        <h4>Soins Corps</h4>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
                                     <a href="#gchydra" data-parent="#soinscorps" data-toggle="collapse">Gommage Corps + Hydratation</a>
                                 </h3>
-                                </div>
-                                <div id="gchydra" class="panel-collapse collapse">
-                                    <div class="panel-body">Gommage avec des grains de bambou, du sucre de canne, du papaye pour une peau plus nette, plus lisse et bien hydratante </div>
-                                </div>
                             </div>
+                            <div id="gchydra" class="panel-collapse collapse">
+                                <div class="panel-body">Gommage avec des grains de bambou, du sucre de canne, du papaye pour une peau plus nette, plus lisse et bien hydratante </div>
+                            </div>
+                        </div>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
                                     <a href="#gcmodelage" data-parent="#soinscorps" data-toggle="collapse">Gommage corporel et modelage</a>
                                 </h3>
-                                </div>
-                                <div id="gcmodelage" class="panel-collapse collapse">
-                                    <div class="panel-body">Associez les deux pour retrouver et tonifier le corps. </div>
-                                </div>
                             </div>
+                            <div id="gcmodelage" class="panel-collapse collapse">
+                                <div class="panel-body">Associez les deux pour retrouver et tonifier le corps. </div>
+                            </div>
+                        </div>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
                                     <a href="#jambeslegeres" data-parent="#soinscorps" data-toggle="collapse"> Jambes Légères </a>
                                 </h3>
-                                </div>
-                                <div id="jambeslegeres" class="panel-collapse collapse">
-                                    <div class="panel-body">Modelage avec le produit spécialisé pour les jambes et finir par l'enveloppement. </div>
-                                </div>
                             </div>
+                            <div id="jambeslegeres" class="panel-collapse collapse">
+                                <div class="panel-body">Modelage avec le produit spécialisé pour les jambes et finir par l'enveloppement. </div>
+                            </div>
+                        </div>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
                                     <a href="#reflexologieplantaire" data-parent="#soinscorps" data-toggle="collapse">Reflexologie plantaire esthétique</a>
                                 </h3>
-                                </div>
-                                <div id="reflexologieplantaire" class="panel-collapse collapse">
-                                    <div class="panel-body">Apaiser les tensions, évacuer le stress.</div>
-                                </div>
                             </div>
+                            <div id="reflexologieplantaire" class="panel-collapse collapse">
+                                <div class="panel-body">Apaiser les tensions, évacuer le stress.</div>
+                            </div>
+                        </div>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
                                     <a href="#gdmodelage" data-parent="#soinscorps" data-toggle="collapse">Gommage dos + Modelage Dos Relax</a>
                                 </h3>
-                                </div>
-                                <div id="gdmodelage" class="panel-collapse collapse">
-                                    <div class="panel-body">Relaxation du corps et retrouver un bien être.</div>
-                                </div>
                             </div>
-
-                        </div>
-
-                        <div id="soinsminceur" class="col-lg-3 panel-group">
-                            <h4>Soins Minceur</h4>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                    <a href="#specialite-soins-minceur" data-parent="#soinsminceur" data-toggle="collapse">Spécialité Soins Minceur</a>
-                                </h3>
-                                </div>
-                                <div id="specialite-soins-minceur" class="panel-collapse collapse">
-                                    <div class="panel-body">Palper, rouler, drainer de manière énergisante, réduire la taille des hanches, des cuisses, du ventre et les bras à l'aide de bambous et de ventouses</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="detente" class="col-lg-3 panel-group">
-                            <h4>Détente</h4>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                    <a href="#modelage-californien" data-parent="#detente" data-toggle="collapse">Modelage Californien</a>
-                                </h3>
-                                </div>
-                                <div id="modelage-californien" class="panel-collapse collapse">
-                                    <div class="panel-body">Profonde relaxation physique.</div>
-                                </div>
-                            </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                    <a href="#modelage-a-la-bougie" data-parent="#detente" data-toggle="collapse">Modelage à la bougie</a>
-                                </h3>
-                                </div>
-                                <div id="modelage-a-la-bougie" class="panel-collapse collapse">
-                                    <div class="panel-body">Détente, douceur et chaleur au contact de la peau.</div>
-                                </div>
-                            </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                    <a href="#modelage-aux-pierres-chaudes" data-parent="#detente" data-toggle="collapse">Modelage aux pierres chaudes</a>
-                                </h3>
-                                </div>
-                                <div id="modelage-aux-pierres-chaudes" class="panel-collapse collapse">
-                                    <div class="panel-body">Tonification de l'organisme et renforcement des fonctiosn immunitaires.</div>
-                                </div>
-                            </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                    <a href="#specialite-modelage-lomi-lomi" data-parent="#detente" data-toggle="collapse">Spécialité Modelage Lomi-Lomi</a>
-                                </h3>
-                                </div>
-                                <div id="specialite-modelage-lomi-lomi" class="panel-collapse collapse">
-                                    <div class="panel-body">Une détente libérante des tensions, énergisante et ressourçante.</div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div id="modelage-du-ventre" class="col-lg-3 panel-group">
-                            <h4>Modelage du Ventre</h4>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                    <a href="#modelage-du-ventre-bis" data-parent="#modelage-du-ventre" data-toggle="collapse">Modelage du ventre</a>
-                                </h3>
-                                </div>
-                                <div id="modelage-du-ventre-bis" class="panel-collapse collapse">
-                                    <div class="panel-body">Deuxième cerveau, libérer des tensions, bien-être...</div>
-                                </div>
+                            <div id="gdmodelage" class="panel-collapse collapse">
+                                <div class="panel-body">Relaxation du corps et retrouver un bien être.</div>
                             </div>
                         </div>
 
                     </div>
+
+                    <div id="soinsminceur" class="col-lg-3 panel-group">
+                        <h4>Soins Minceur</h4>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#specialite-soins-minceur" data-parent="#soinsminceur" data-toggle="collapse">Spécialité Soins Minceur</a>
+                                </h3>
+                            </div>
+                            <div id="specialite-soins-minceur" class="panel-collapse collapse">
+                                <div class="panel-body">Palper, rouler, drainer de manière énergisante, réduire la taille des hanches, des cuisses, du ventre et les bras à l'aide de bambous et de ventouses</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="detente" class="col-lg-3 panel-group">
+                        <h4>Détente</h4>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#modelage-californien" data-parent="#detente" data-toggle="collapse">Modelage Californien</a>
+                                </h3>
+                            </div>
+                            <div id="modelage-californien" class="panel-collapse collapse">
+                                <div class="panel-body">Profonde relaxation physique.</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#modelage-a-la-bougie" data-parent="#detente" data-toggle="collapse">Modelage à la bougie</a>
+                                </h3>
+                            </div>
+                            <div id="modelage-a-la-bougie" class="panel-collapse collapse">
+                                <div class="panel-body">Détente, douceur et chaleur au contact de la peau.</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#modelage-aux-pierres-chaudes" data-parent="#detente" data-toggle="collapse">Modelage aux pierres chaudes</a>
+                                </h3>
+                            </div>
+                            <div id="modelage-aux-pierres-chaudes" class="panel-collapse collapse">
+                                <div class="panel-body">Tonification de l'organisme et renforcement des fonctiosn immunitaires.</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#specialite-modelage-lomi-lomi" data-parent="#detente" data-toggle="collapse">Spécialité Modelage Lomi-Lomi</a>
+                                </h3>
+                            </div>
+                            <div id="specialite-modelage-lomi-lomi" class="panel-collapse collapse">
+                                <div class="panel-body">Une détente libérante des tensions, énergisante et ressourçante.</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="modelage-du-ventre" class="col-lg-3 panel-group">
+                        <h4>Modelage du Ventre</h4>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a href="#modelage-du-ventre-bis" data-parent="#modelage-du-ventre" data-toggle="collapse">Modelage du ventre</a>
+                                </h3>
+                            </div>
+                            <div id="modelage-du-ventre-bis" class="panel-collapse collapse">
+                                <div class="panel-body">Deuxième cerveau, libérer des tensions, bien-être...</div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </section>
+    </div>
+    </section>
     </div>
 
     <!-- Mains & Pieds Section -->
