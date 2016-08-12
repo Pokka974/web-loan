@@ -66,3 +66,30 @@ html {
     text-align: left;
     background: #eee;
 }
+
+.panel-group {
+    padding-bottom: 15px;
+    background-color: #effffe;
+}
+
+.panel-group h4 {
+    text-align: center;
+}
+
+.panel-default>.panel-heading.panel-even{
+    background-color: #c1f5c6
+}
+
+.panel-default>.panel-heading.panel-odd{
+    background-color: #c1f5de;
+}
+
+.panel-group .panel+.panel {
+    margin-top: 2px;
+}
+
+.panel-default {
+    border-color: #6d6d6d;
+    border-left: none;
+    border-right: none;
+}

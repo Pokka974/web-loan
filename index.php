@@ -100,7 +100,7 @@
                     <div id="beauteexpert" class="col-lg-3 panel-group">
                         <h4>Beauté Expert</h4>
                         <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div class="panel-heading panel-even">
                                 <h3 class="panel-title">
                                     <a href="#catiovital" data-parent="#beauteexpert" data-toggle="collapse">Catio Vital</a>
                                 </h3>
@@ -112,7 +112,7 @@
                         </div>
 
                         <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div class="panel-heading panel-odd">
                                 <h3 class="panel-title">
                                     <a href="#catiolift" data-parent="#beauteexpert" data-toggle="collapse">Catio Lift</a>
                                 </h3>
@@ -125,7 +125,7 @@
                         </div>
 
                         <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div class="panel-heading panel-even">
                                 <h3 class="panel-title">
                                     <a href="#doublecatiovitaljeunesse" data-parent="#beauteexpert" data-toggle="collapse">Double Catio Vital Jeunesse</a>
                                 </h3>
@@ -137,7 +137,7 @@
                         </div>
 
                         <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div class="panel-heading panel-odd">
                                 <h3 class="panel-title">
                                     <a href="#eyerepair" data-parent="#beauteexpert" data-toggle="collapse">Eye-Repair</a>
                                 </h3>
