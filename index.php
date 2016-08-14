@@ -10,9 +10,6 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/webloan.css" rel="stylesheet">
-
-
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -258,6 +255,8 @@
 
                     </div>
                 </div>
+
+                <hr class="greybackground panelrow-divider">
 
                 <div class="row">
                     <div id="psm4s" class="col-lg-3 panel-group">
@@ -912,49 +911,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-    <script type="text/javascript">
-        $(window).on('scroll', function () {
-            smoothBackgroundScroll("relative/image/url");
-        });
-
-        function smoothBackgroundScroll(imgsrc) {
-            function loadImageHeight(url, width) {
-                var img = new Image();
-                img.src = url;
-                if (width) {
-                    img.width = width;
-                }
-                return img.height;
-            }
-
-            var dh, wh, ih, st, posy, backh, backw;
-            if (!this._smoothBackgroundScroll) {
-                var bcksize = $(document.body).css('background-size');
-                var bmatch = /(\w+)\s*(\w+)/.exec(bcksize);
-                if (!bmatch || bmatch.length < 3) {
-                    backh = loadImageHeight(imgsrc)
-                } else {
-                    backh = parseInt(bmatch[2]);
-                    if (isNaN(backh)) {
-                        backw = parseInt(bmatch[1]);
-                        backh = loadImageHeight(imgsrc, parseInt(backw));
-                    }
-                }
-                this._smoothBackgroundScroll = {
-                    dh: $(document).height(),
-                    wh: $(window).height(),
-                    ih: backh
-                }
-            }
-            dh = this._smoothBackgroundScroll.dh;
-            wh = this._smoothBackgroundScroll.wh
-            ih = this._smoothBackgroundScroll.ih;
-            st = $(document).scrollTop();
-            posy = (dh - ih) * st / (dh - wh);
-            posy = st - (st-posy)*0.05; //factor is slowness factor between 0 and 1
-            document.body.style.backgroundPosition = 'center ' + posy + 'px';
-        }
-    </script>
 </body>
 
 </html>

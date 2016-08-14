@@ -6,9 +6,6 @@
 body {
     width: 100%;
     height: 100%;
-    background-image: url(https://puu.sh/qAsp5/f8fe25cf20.jpg);
-    background-repeat: no-repeat;
-    background-size: auto auto;
 }
 
 html {
@@ -39,7 +36,7 @@ html {
     height: 80%;
     padding-top: 10px;
     text-align: left;
-    background: rgba(240,240,240,0.85); /* ee = 240 */
+    background: #eee;
 }
 
 .soins-corps-section {
@@ -53,31 +50,31 @@ html {
     height: 30%;
     padding-top: 10px;
     text-align: left;
-    background: rgba(240,240,240,0.85);
+    background: #eee;
 }
 
 .epilation-et-maquillage-section {
     height: 110%;
     padding-top: 10px;
     text-align: left;
-    background: rgba(240,240,240,0.85);
+    background: #fff;
 }
 
 .contact-section {
     height: 25%;
     padding-top: 10px;
     text-align: left;
-    background: rgba(240,240,240,0.85);
+    background: #eee;
 }
 
 .panel-group {
     padding-bottom: 15px;
+    background-color: #effffe;
 }
 
 .panel-group h4 {
     text-align: center;
 }
-
 
 .panel-default>.panel-heading.panel-even{
     background-color: #c1f5c6
@@ -87,19 +84,12 @@ html {
     background-color: #c1f5de;
 }
 
-.panel-default {
-    border-color: #6d6d6d;
-}
-
-/*
 .panel-group .panel+.panel {
-    margin-top: 3px;
+    margin-top: 2px;
 }
-
 
 .panel-default {
     border-color: #6d6d6d;
     border-left: none;
     border-right: none;
 }
-*/
